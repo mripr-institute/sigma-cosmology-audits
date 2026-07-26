@@ -1,35 +1,48 @@
-# GIPR σ Audit Publication Bundle
+# MRIPR σ Audit Publication Bundle
 
-Publication-ready institutional release of the Mathematical Research Institute of Physical Reality (MRIPR), prepared 25 July 2026.
+**Author:** Alex Albert\
+**ORCID:** https://orcid.org/0009-0005-6981-2087\
+**Institution:** Mathematical Research Institute of Physical Reality\
+**Release date:** 25 July 2026
 
-## Included independent audits
+This bundle contains the public audit records for the Pantheon+, SPARC,
+and DESI evaluations of σ. Each audit is independently reproducible and
+preserves the code, procedures, numerical results, and integrity records
+required to verify the published execution.
 
-1. **Pantheon+ σ invariant extraction and row closure**
-   - 1,701 catalogue rows accounted for
-   - 1,578 retained rows
-   - 1,578/1,578 finite row extractions
-   - maximum row-closure residual: `2.220446049250e-16`
-   - fitted degrees of freedom: `0`
+## Included audits
 
-2. **SPARC σ full-catalogue audit**
-   - 175 galaxies
-   - 3,391 rotation-curve rows
-   - 3,389 RAR rows
-   - complete per-galaxy status accounting
-   - fitted degrees of freedom: `0`
+### Pantheon+ σ invariant extraction and row closure
 
-3. **DESI σ squared-radial closure and full-corpus audit**
-   - 13,097,304 retained physical objects
-   - pooled invariant-support coverage: `0.9708459316265691`
-   - full-corpus independent arithmetic-route agreement
-   - 200 trials in each of three null families
-   - observed φ-excess exceeded all 600 null realizations
-   - fitted identity degrees of freedom: `0`
+-   Catalogue rows accounted for: `1,701`
+-   Rows retained: `1,578`
+-   Finite row extractions: `1,578 / 1,578`
+-   Maximum row-closure residual: `2.220446049250e-16`
+-   Fitted degrees of freedom: `0`
 
-## Bundle structure
+### SPARC σ full-catalogue audit
 
-```text
-GIPR_Publication_2026-07-25/
+-   Galaxies accounted for: `175`
+-   Rotation-curve rows: `3,391`
+-   RAR rows: `3,389`
+-   Per-galaxy status accounting: complete
+-   Fitted degrees of freedom: `0`
+
+### DESI σ squared-radial closure and full-corpus audit
+
+-   Retained physical objects: `13,097,304`
+-   Pooled invariant-support coverage: `0.9708459316265691`
+-   Independent arithmetic routes: full-corpus agreement
+-   Null families: `3`
+-   Trials per null family: `200`
+-   Total null realizations: `600`
+-   Observed φ-excess: greater than every null realization
+-   Fitted identity degrees of freedom: `0`
+
+## Bundle contents
+
+``` text
+MRIPR_Publication_2026-07-25/
 ├── README.md
 ├── AUTHOR
 ├── AUTHORS.md
@@ -41,40 +54,73 @@ GIPR_Publication_2026-07-25/
 └── PANTHEON+/
 ```
 
-Each audit repository is independently reproducible and contains:
+The three audit repositories contain:
 
-- a comprehensive README;
-- author and institutional metadata;
-- citation and Zenodo metadata;
-- licence and third-party-data boundary;
-- exact results and reproducibility documentation;
-- a repository-local checksum-verifying downloader;
-- a scoped public-data source manifest;
-- its authoritative audit evidence.
+-   the audit code and supporting procedures;
+-   the published numerical results;
+-   author, institutional, citation, and release metadata;
+-   licensing information and third-party data boundaries;
+-   exact reproduction instructions;
+-   checksum-verifying data downloaders;
+-   manifests identifying the public source data;
+-   the authoritative evidence produced by the audit.
 
-Every repository uses the same top-level contract:
+Each repository follows the same top-level layout:
 
-```text
+``` text
 REPOSITORY/
-├── analysis/   # scientific audit procedures and supporting methods
-├── data/       # public inputs or retrieval instructions
-└── results/    # authoritative immutable audit evidence
+├── analysis/
+├── data/
+└── results/
 ```
 
-Raw third-party catalogues are intentionally excluded from this publication bundle. They are reproducibly obtained from authoritative public sources with the included downloaders and pinned cryptographic checksums.
+## Third-party data
 
-## Integrity
+Raw third-party catalogues are not redistributed in this bundle.
 
-`SHA256SUMS` covers every regular file in the bundle except `SHA256SUMS` itself. Verify from the bundle root:
+The required inputs are obtained from their authoritative public sources
+by the included downloaders. Expected files are identified by pinned
+cryptographic checksums so that the retrieved inputs can be verified
+before an audit is executed.
 
-```bash
+## Reproduction
+
+Each audit repository includes its own instructions and verification
+procedure. The repositories can therefore be reproduced separately; the
+enclosing bundle records the institutional release in which their
+results were published together.
+
+The published files under `results/` are audit records rather than
+working directories. A new execution must be written to a new record
+directory. Existing records must not be overwritten or edited in place.
+
+## Bundle integrity
+
+`SHA256SUMS` covers every regular file in the bundle except the checksum
+file itself.
+
+``` bash
 sha256sum --check SHA256SUMS
 ```
 
-Do not edit an audit record after checksums are generated. Any revised execution must be written to a new record directory and released with a new bundle checksum.
+A successful verification confirms that the local files match the files
+included in this release.
+
+Any revision requires:
+
+1.  a new record directory;
+2.  a new release identifier;
+3.  regenerated checksums;
+4.  a newly issued publication bundle.
+
+## Author
+
+**Dr. Alex Albert**\
+Mathematical Research Institute of Physical Reality
 
 ## Institution
 
-Mathematical Research Institute of Physical Reality  
-[https://www.mripr.org/](https://www.mripr.org/)  
-[contact@mripr.org](mailto:contact@mripr.org)
+**Mathematical Research Institute of Physical Reality**
+
+Website: https://www.mripr.org/\
+Email: contact@mripr.org
