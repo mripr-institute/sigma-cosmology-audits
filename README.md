@@ -1,4 +1,4 @@
-# MRIPR σ Audit Publication Bundle
+# MRIPR σ Cosmology Audits
 
 **Author:** Alex Albert\
 **ORCID:** https://orcid.org/0009-0005-6981-2087\
