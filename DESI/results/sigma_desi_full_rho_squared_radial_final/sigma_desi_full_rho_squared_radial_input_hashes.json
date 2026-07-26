@@ -1,0 +1,26 @@
+{
+  "BGS": {
+    "data_path": "/Users/alex-albert/Desktop/desi/data/desi/BGS/datcomb_BGS_BRIGHT_tarspecwdup_zdone.fits",
+    "data_sha256": "6f53fa8833dc207e36070857c857a1bf7747bd4fe29f8c58f2f563d9024aa179",
+    "random_path": "/Users/alex-albert/Desktop/desi/data/desi/BGS/randoms/rancomb_0brightwdupspec_zdone.fits",
+    "random_sha256": "52b3e8c2528824349214d49034cb3c752b6703876027ac1c5c781cc78ca6f15a"
+  },
+  "ELG": {
+    "data_path": "/Users/alex-albert/Desktop/desi/data/desi/ELG/datcomb_ELG_LOPnotqso_tarspecwdup_zdone.fits",
+    "data_sha256": "80f3365934a91d31c54af2741cc21953d5f52f265d2296a9666b1094bf7f198f",
+    "random_path": "/Users/alex-albert/Desktop/desi/data/desi/ELG/randoms/rancomb_0darkwdupspec_zdone.fits",
+    "random_sha256": "12065a89957189993b3592ed80ba243f19bb2375fd47ed17197fa6b559871376"
+  },
+  "LRG": {
+    "data_path": "/Users/alex-albert/Desktop/desi/data/desi/LRG/datcomb_LRG_tarspecwdup_zdone.fits",
+    "data_sha256": "4b8ad646de35c7ac17d7fc19dc2432914dd61ceef016a3eed9aabb19af0a4dff",
+    "random_path": "/Users/alex-albert/Desktop/desi/data/desi/LRG/randoms/rancomb_0darkwdupspec_zdone.fits",
+    "random_sha256": "12065a89957189993b3592ed80ba243f19bb2375fd47ed17197fa6b559871376"
+  },
+  "QSO": {
+    "data_path": "/Users/alex-albert/Desktop/desi/data/desi/QSO/datcomb_QSO_tarspecwdup_zdone.fits",
+    "data_sha256": "c0b1ffe67794c14664fb5a8f205cf44b2631ee7bfcce9c2c318ca473846c6491",
+    "random_path": "/Users/alex-albert/Desktop/desi/data/desi/LRG/randoms/rancomb_0darkwdupspec_zdone.fits",
+    "random_sha256": "12065a89957189993b3592ed80ba243f19bb2375fd47ed17197fa6b559871376"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "release_name": "GIPR Sigma Audit Publication Bundle",
+  "release_version": "1.0.0",
+  "release_date": "2026-07-25",
+  "institution": "Mathematical Research Institute of Physical Reality",
+  "institution_url": "https://www.mripr.org/",
+  "lead_author": {
+    "name": "Alex Albert",
+    "orcid": "0009-0005-6981-2087",
+    "email": "alex.albert@mripr.org"
+  },
+  "repositories": [
+    {
+      "name": "DESI",
+      "path": "DESI",
+      "authoritative_closure_record": "DESI/results/sigma_desi_lss_closure_squared_radial_fastnull_20260724",
+      "authoritative_full_record": "DESI/results/sigma_desi_full_rho_squared_radial_final"
+    },
+    {
+      "name": "SPARC",
+      "path": "SPARC",
+      "authoritative_record": "SPARC/results/sparc_sigma_full_catalogue_corpus_independent_20260722"
+    },
+    {
+      "name": "PANTHEON+",
+      "path": "PANTHEON+",
+      "authoritative_record": "PANTHEON+/results/pantheon_sigma_zr_invariant_extraction_row_closure_20260723"
+    }
+  ],
+  "raw_public_data_included": false,
+  "data_retrieval": "Repository-local download_data.py files with pinned data_sources.json checksums",
+  "checksum_index": "SHA256SUMS"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "collection": "SPARC",
+  "sources": [
+    {
+      "id": "sparc-galaxy-properties",
+      "url": "https://astroweb.cwru.edu/SPARC/SPARC_Lelli2016c.mrt",
+      "path": "data/sparc/SPARC_Lelli2016c.mrt",
+      "sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+      "citation_url": "https://astroweb.cwru.edu/SPARC/"
+    },
+    {
+      "id": "sparc-rotation-curves",
+      "url": "https://astroweb.cwru.edu/SPARC/Rotmod_LTG.zip",
+      "path": "data/sparc/Rotmod_LTG.zip",
+      "md5": "e4c8b92766026770ed35e5889064e12b",
+      "extract_to": "data/sparc/rotcurves",
+      "member_suffix": "_rotmod.dat",
+      "expected_members": 175,
+      "extracted_aggregate_sha256": "3013b06ded3b40d0eecc4daa01555bbe9f108ce95a94604de92f6cfb7e12238a",
+      "citation_url": "https://astroweb.cwru.edu/SPARC/"
+    }
+  ]
+}

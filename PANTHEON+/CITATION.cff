@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this audit, cite the MRIPR release and the Pantheon+SH0ES data release."
+title: "Pantheon+ Sigma Invariant Extraction and Row-Closure Audit"
+type: software
+version: 1.0.0
+date-released: 2026-07-25
+authors:
+  - family-names: Albert
+    given-names: Alex
+    orcid: "https://orcid.org/0009-0005-6981-2087"
+    affiliation: "Mathematical Research Institute of Physical Reality"
+repository-code: "https://www.mripr.org/"
+license: CC0-1.0
+keywords:
+  - sigma identity
+  - Pantheon+
+  - invariant extraction
+  - Lambert W closure
+  - zero degrees of freedom

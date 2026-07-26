@@ -1,0 +1,170 @@
+{
+  "audit_name": "Pantheon \u03c3 z=r Invariant Extraction and Row Closure Audit",
+  "degrees_of_freedom": 0,
+  "derivative_mu_gamma_recovery": {
+    "checks": {
+      "finite_derivative_records": true,
+      "gamma_recovered_on_all_derivative_grid_points": true,
+      "mu_equals_sqrt_negative_sigma_second_at_r_star": true,
+      "mu_recovered_on_all_derivative_grid_points": true,
+      "no_DESI_q_used": true,
+      "no_H0_used": true,
+      "no_fit_used": true,
+      "no_least_squares_used": true,
+      "no_minimization_used": true,
+      "sigma_prime_at_r_star_is_zero": true
+    },
+    "grid_point_count": 1299,
+    "max_abs_gamma_residual": 4.937554691432881e-120,
+    "max_abs_mu_residual": 6.05092486695206e-122,
+    "max_recovery_error": 4.937554691432881e-120,
+    "pantheon_extracted_gamma_record": 0.38603416,
+    "pantheon_extracted_mu_record": 0.082912607552,
+    "pass": true,
+    "q25_gamma": 0.38603416,
+    "q25_mu": 0.082912607552,
+    "q75_gamma": 0.38603416,
+    "q75_mu": 0.082912607552,
+    "recovered_gamma_median": 0.38603416,
+    "recovered_mu_median": 0.082912607552,
+    "rows_written": 1299
+  },
+  "epistemic_boundary": {
+    "DESI_q_used_for_mu": false,
+    "FLRW_distance_relation_used": false,
+    "H0_cmb_used": false,
+    "H0_late_used_for_mu": false,
+    "H0_ratio_used_for_mu": false,
+    "LambdaCDM_parameter_extraction_used": false,
+    "dark_energy_parameter_extraction_used": false,
+    "expansion_history_used": false,
+    "fit_objective_used": false,
+    "least_squares_used": false,
+    "likelihood_prior_posterior_MCMC_used": false,
+    "minimization_used": false,
+    "velocity_interpretation_used": false,
+    "z_equals_r": true
+  },
+  "file_hashes": {
+    "evidence_output_hashes": {
+      "derivative_recovery_csv": {
+        "bytes": 497411,
+        "path": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/supplementary_identity_reconstruction.csv",
+        "sha256": "bfad106189002a3b744895922d2c4d73c225ad93fd4b8c5a76b6c35da149c87e"
+      },
+      "pantheon_row_evidence_csv": {
+        "bytes": 310103,
+        "path": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_zr_row_extraction_closure.csv",
+        "sha256": "c76688840f049527a3c0559aab34d8da901ec6440cd90a1ea2d0e5a079fee217"
+      }
+    },
+    "procedure_hashes": {
+      "entrypoint": {
+        "bytes": 40133,
+        "path": "sigma_pantheon.py",
+        "sha256": "2ac5cede8bf407d19d78bcd1ad32aa98fe22b572bbfdb34abefd3b35d66691a2"
+      }
+    },
+    "source_hashes": {
+      "pantheon_catalogue": {
+        "bytes": 579283,
+        "path": "data/PantheonSH0ES.dat",
+        "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+      }
+    }
+  },
+  "final_status": "PASS",
+  "input_paths": {
+    "pantheon_catalogue": "data/PantheonSH0ES.dat"
+  },
+  "output_paths": {
+    "derivative_recovery_csv": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/supplementary_identity_reconstruction.csv",
+    "manifest": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_manifest.json",
+    "pantheon_row_evidence_csv": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_zr_row_extraction_closure.csv",
+    "report": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_report.md",
+    "result_json": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_result.json"
+  },
+  "pantheon_corpus": {
+    "calibrator_rows_removed": 77,
+    "degrees_of_freedom": 0,
+    "excluded_rows_by_reason": {
+      "calibrator": 77,
+      "z_above_max": 0,
+      "z_below_min": 46,
+      "z_nonfinite": 0
+    },
+    "input_file": "/home/alex-albert/Documents/GIPR/PANTHEON+/data/PantheonSH0ES.dat",
+    "rows_after_calibrator_cut": 1624,
+    "rows_excluded_by_z_cut": 46,
+    "rows_retained_after_z_cut": 1578,
+    "total_rows": 1701
+  },
+  "pantheon_extracted_invariant_record": {
+    "gamma": 0.38603416,
+    "mu": 0.082912607552,
+    "r_star": 9.470447610693826,
+    "rho_at_zero": 0.014659447439969135
+  },
+  "pantheon_gamma_closure": {
+    "calibrator_rows_removed": 77,
+    "catalogue_scale_record": 73.23,
+    "clipped_gamma_iqr": 0.8880558820343432,
+    "clipped_gamma_mean": 0.6562208086409022,
+    "clipped_gamma_median": 0.38608763768044335,
+    "clipped_gamma_standard_deviation": 2.60806694656227,
+    "closure_residual_max_abs": 2.220446049250313e-16,
+    "decimal_recording_difference": 2.2421150491780395e-09,
+    "decimal_recording_relative_difference": 5.808074210784971e-09,
+    "finite_gamma_recoveries": 1578,
+    "gamma_clip_retained_count": 1463,
+    "mu_column": "MU_SH0ES",
+    "mu_derivative_recovered": 0.082912607552,
+    "mu_source": "derivative_recovered",
+    "pantheon_extracted_gamma_record": 0.38603416,
+    "pass": true,
+    "robust_median_gamma": 0.38603415775788497,
+    "robust_subset_count": 1134,
+    "rows_after_calibrator_cut": 1624,
+    "rows_excluded_by_z_cut": 46,
+    "rows_retained_after_z_cut": 1578,
+    "total_rows": 1701
+  },
+  "pass_fail_checks": {
+    "calibrator_exclusion_accounted": true,
+    "degrees_of_freedom_is_zero": true,
+    "derivative_recovery_csv_written": true,
+    "finite_gamma_solved_for_every_retained_row_after_z_cut": true,
+    "input_loaded": true,
+    "manifest_written": true,
+    "no_DESI_q_used_for_mu": true,
+    "no_H0_ratio_used": true,
+    "no_fit_used": true,
+    "no_least_squares_used": true,
+    "no_minimization_used": true,
+    "no_silent_row_loss": true,
+    "report_written": true,
+    "required_numeric_evidence_finite": true,
+    "result_json_written": true,
+    "row_closure_residual_within_numeric_tolerance": true,
+    "row_evidence_csv_written": true,
+    "total_row_count_accounted": true,
+    "z_cut_accounted": true,
+    "z_equals_r_true_for_every_retained_row": true
+  },
+  "procedure_hashes": {
+    "entrypoint": {
+      "bytes": 40133,
+      "path": "sigma_pantheon.py",
+      "sha256": "2ac5cede8bf407d19d78bcd1ad32aa98fe22b572bbfdb34abefd3b35d66691a2"
+    }
+  },
+  "run_timestamp_utc": "2026-07-23T17:05:45Z",
+  "stationary_recovery": {
+    "difference_from_extracted_mu_record": 2.420369946780824e-122,
+    "mu_from_sqrt_negative_sigma_second": 0.082912607552,
+    "pass": true,
+    "r_star": 9.470447610693826,
+    "sigma_prime_at_r_star": -2.420369946780824e-122,
+    "sigma_second_at_r_star": -0.006874500491071967
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "SPARC Sigma Full-Catalogue Audit",
+  "description": "MRIPR zero-degree-of-freedom SPARC full-catalogue, rotation-closure and RAR audit.",
+  "upload_type": "software",
+  "publication_date": "2026-07-25",
+  "version": "1.0.0",
+  "license": "cc-zero",
+  "creators": [
+    {
+      "name": "Albert, Alex",
+      "orcid": "0009-0005-6981-2087",
+      "affiliation": "Mathematical Research Institute of Physical Reality"
+    }
+  ],
+  "keywords": ["sigma identity", "SPARC", "galaxy rotation curves", "radial acceleration relation"]
+}

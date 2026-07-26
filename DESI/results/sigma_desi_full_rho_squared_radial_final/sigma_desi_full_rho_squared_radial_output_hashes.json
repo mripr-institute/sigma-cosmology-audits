@@ -1,0 +1,20 @@
+{
+  "sigma_desi_full_rho_squared_radial_arrays.npz": "d56a8d2087ffa5eec4f609d2df4af500779bf7bb8a9c37ee674906de8126d304",
+  "sigma_desi_full_rho_squared_radial_branch_readout.png": "0cd976f199788b68db74f79b743bfa4aef6569da827e5cc32a4c07464d946436",
+  "sigma_desi_full_rho_squared_radial_cdf.png": "bb85d863509477cdcfcaf8d745ea1b0bb19f2c0553d0919f74e3b984ce432c15",
+  "sigma_desi_full_rho_squared_radial_cross_tracer.png": "b409fa9f9f61b49aeb3726ff17d6e568e333d57bbeded11b56c2d901e00b3ded",
+  "sigma_desi_full_rho_squared_radial_derivative_architecture.png": "b59cb24dbe31db89a2a77a3706f0d093cf4e2c6303bea204ec565b1fd0424ce3",
+  "sigma_desi_full_rho_squared_radial_input_hashes.json": "565481998493411da4b43a5c09ae2200aea8b58b1e2b656b5c7a25583981cb19",
+  "sigma_desi_full_rho_squared_radial_null_comparison.png": "a3015f42d5103e8bb52817110b29c279cd971f6106bcbe65aaa345c30a77ae21",
+  "sigma_desi_full_rho_squared_radial_partitions.png": "3fc8917d7fa76f5d28b164caec304d51bb7f4e67cc88497cf9e55a8fe7d2599f",
+  "sigma_desi_full_rho_squared_radial_profiles.png": "6c092714f76731d06a84f72011fee3835b05ea9978ecc06b48a422997918d907",
+  "sigma_desi_full_rho_squared_radial_q_binwise.csv": "bb7df13391f5a97bc5efd7238ebd4f7b7d45d63562ad07547376fba15ae9aa4d",
+  "sigma_desi_full_rho_squared_radial_q_derivative.csv": "4ff84fa94cfdc7a29409067fcc6a3530a091091dc2dc2286181a5926fc1aa4b0",
+  "sigma_desi_full_rho_squared_radial_q_edges.csv": "0ac90ccfdebeebe32dc4d89f0e72e7e1cb7ab76875158136e876fbcb12f22b38",
+  "sigma_desi_full_rho_squared_radial_q_metrics.csv": "48dbab427416666e9eddc3d944cd78424ac975082cfc21e5912d7f9d20c3d74f",
+  "sigma_desi_full_rho_squared_radial_q_nulls.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sigma_desi_full_rho_squared_radial_q_partitions.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sigma_desi_full_rho_squared_radial_qstar_neighbourhood.png": "607834f8495ccdc81f072dc2da55538c07794f37a946db8d0f45418406fdef9a",
+  "sigma_desi_full_rho_squared_radial_report.md": "380eecbd41fa88380dcd4f7191190f2acac68c539dc32ebdba98437208159243",
+  "sigma_desi_full_rho_squared_radial_source_hash.txt": "41064fe27f2697a49a142b1bedbdc5dd41ac070240f1acea8d39e510307910b9"
+}

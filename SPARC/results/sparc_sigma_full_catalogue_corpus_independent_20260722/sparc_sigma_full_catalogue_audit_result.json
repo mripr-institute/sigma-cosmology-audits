@@ -1,0 +1,187 @@
+{
+  "audit_name": "SPARC \u03c3 Full-Catalogue Audit Record",
+  "corpus_counts": {
+    "catalogue_data_lines": 175,
+    "catalogue_invalid_records": 0,
+    "catalogue_parseable_records": 175,
+    "degrees_of_freedom": 0,
+    "galaxies": 175,
+    "galaxies_with_rotation_curves": 175,
+    "rar_data_points": 3389,
+    "rotation_curve_files": 175,
+    "rotation_curve_points": 3391,
+    "valid_Rdisk_records": 175,
+    "valid_Vflat_records": 135
+  },
+  "degrees_of_freedom": 0,
+  "degrees_of_freedom_contract": {
+    "all_present": true,
+    "all_zero": true,
+    "observed": {
+      "corpus_counts": 0,
+      "fixed_identity": 0,
+      "rar_consistency": 0,
+      "rotation_closure": 0
+    }
+  },
+  "figure_audits": {
+    "rar_audit": {
+      "evidence_predicates": {
+        "figures_created": true,
+        "galaxies_present": true,
+        "positive_rank_and_linear_correlations": true,
+        "rar_points_present": true,
+        "rar_statistics_finite": true
+      },
+      "figures": [
+        "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/figures/sparc_rar_consistency_gallery.png",
+        "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/figures/sparc_rar_consistency_identity.png"
+      ],
+      "status": "PASS"
+    },
+    "sparc_identity_audit": {
+      "evidence_predicates": {
+        "all_valid_vflat_within_10_percent": true,
+        "all_valid_vflat_within_20_percent": true,
+        "figures_created": true,
+        "rotation_summary_finite": true,
+        "valid_vflat_records_present": true
+      },
+      "figures": [
+        "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/figures/sparc_rotation_closure_closure.png",
+        "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/figures/sparc_rotation_closure_full_identity.png",
+        "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/figures/sparc_rotation_closure_rotcurve_gallery.png"
+      ],
+      "status": "PASS"
+    }
+  },
+  "final_status": "PASS",
+  "fixed_identity": {
+    "degrees_of_freedom": 0,
+    "gamma_squared": 0.1490223726869056,
+    "mu_squared": 0.006874500491071967,
+    "rho_0": 0.014659447439969133
+  },
+  "gamma": 0.38603416,
+  "mu": 0.082912607552,
+  "outer_flatness_table": {
+    "outer_slope_summary": {
+      "outer_slope_abs_median": 0.09516916125841884,
+      "outer_slope_mean": 0.028688323176845307,
+      "outer_slope_median": 0.01042733184177243,
+      "outer_slope_std": 0.15375479354024577
+    },
+    "path": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/outer_flatness_by_galaxy.csv",
+    "status_counts": {
+      "INSUFFICIENT_OUTER_POINTS": 50,
+      "INVALID_VFLAT": 14,
+      "OK": 111
+    },
+    "validation": {
+      "expected_row_count": 175,
+      "extra_galaxies": [],
+      "finite_failures": [],
+      "finite_required_numeric_columns": true,
+      "missing_galaxies": [],
+      "no_silent_galaxy_loss": true,
+      "row_count": 175,
+      "row_count_matches": true
+    }
+  },
+  "output_paths": {
+    "audit_manifest": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/sparc_sigma_full_catalogue_audit_manifest.json",
+    "audit_report": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/sparc_sigma_full_catalogue_audit_report.md",
+    "audit_result": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/sparc_sigma_full_catalogue_audit_result.json",
+    "figures": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/figures",
+    "outer_flatness": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/outer_flatness_by_galaxy.csv",
+    "sigma_profile": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/sigma_derivative_profile_sparc.csv"
+  },
+  "pass_fail_checks": {
+    "corpus_counts_consistent": true,
+    "degrees_of_freedom_in_all_main_report_blocks": true,
+    "degrees_of_freedom_zero": true,
+    "existing_RAR_audit_PASS": true,
+    "existing_SPARC_identity_audit_PASS": true,
+    "outer_flatness_by_galaxy_csv_created": true,
+    "outer_flatness_no_silent_galaxy_loss": true,
+    "outer_flatness_required_numeric_values_finite": true,
+    "outer_flatness_row_count_matches_expected": true,
+    "sigma_derivative_profile_sparc_csv_created": true,
+    "sigma_profile_no_silent_galaxy_loss": true,
+    "sigma_profile_required_numeric_values_finite": true,
+    "sigma_profile_row_count_matches_expected": true
+  },
+  "rar_consistency": {
+    "Pearson_r": 0.9360455481364094,
+    "RMS_scatter_dex": 0.19599474127361513,
+    "Spearman_rho": 0.9299160331913239,
+    "degrees_of_freedom": 0,
+    "g_bar_dynamic_range": 35174.873641093334,
+    "g_bar_max": 7.3400204613215795e-09,
+    "g_bar_min": 2.0867226237158506e-13,
+    "g_obs_max": 1.921444080759633e-08,
+    "g_obs_min": 8.021073014226917e-13,
+    "galaxies_with_RAR_data": 175,
+    "individual_RAR_points": 3389,
+    "mean_residual_dex": -0.03363792661631513,
+    "median_residual_dex": -0.014219983504128786,
+    "quality_stratified_RMS": {
+      "Q <= 2": {
+        "galaxies": 163,
+        "points": 3269,
+        "rms_scatter_dex": 0.18105146089866447
+      },
+      "Q = 1": {
+        "galaxies": 99,
+        "points": 2132,
+        "rms_scatter_dex": 0.15907700516030449
+      },
+      "all": {
+        "galaxies": 175,
+        "points": 3389,
+        "rms_scatter_dex": 0.19599474127361513
+      }
+    }
+  },
+  "rotation_closure": {
+    "V_Rlast_over_Vflat_mean": 1.003317976266912,
+    "V_Rlast_over_Vflat_median": 1.0050568900126422,
+    "V_Rlast_over_Vflat_std": 0.023858536366957464,
+    "degrees_of_freedom": 0,
+    "galaxies_with_valid_Vflat": 135,
+    "total_galaxies": 175,
+    "within_10_percent_count": 135,
+    "within_10_percent_ratio": 1.0,
+    "within_20_percent_count": 135,
+    "within_20_percent_ratio": 1.0
+  },
+  "run_timestamp_utc": "2026-07-22T11:17:59+00:00",
+  "sigma_derivative_profile_table": {
+    "new_fitted_quantity_introduced": false,
+    "path": "/home/alex-albert/Documents/GIPR/SPARC/audit_records/sparc_sigma_full_catalogue_corpus_independent_20260722/sigma_derivative_profile_sparc.csv",
+    "sigma_derivative_range_summary": {
+      "rho_max": 0.031124777335875202,
+      "rho_min": 0.011682175301143329,
+      "sigma_max": -3.469751078090318,
+      "sigma_min": -4.449691077386614,
+      "sigma_prime_max": 0.30073578047563465,
+      "sigma_prime_min": -0.056310102104413035,
+      "sigma_second_max": -0.0007076932960888941,
+      "sigma_second_min": -0.14718608563620253
+    },
+    "status_counts": {
+      "INVALID_VFLAT": 377,
+      "OK": 3014
+    },
+    "validation": {
+      "expected_row_count": 3391,
+      "extra_galaxies": [],
+      "finite_failures": [],
+      "finite_required_numeric_columns": true,
+      "missing_galaxies_with_rotation_curves": [],
+      "no_silent_galaxy_loss": true,
+      "row_count": 3391,
+      "row_count_matches": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sigma_desi_lss_closure_squared_radial_input_hashes.json": "f5be8a23e1ee95e49394ce5ac7ed56ab6cd76355bcca4c7ffd5dbd3855c63990",
+  "sigma_desi_lss_closure_squared_radial_q_binwise.csv": "63e359c4f7d7410d9aa310a30de46a6ade4032e53209883c42a7e5fa535fdf39",
+  "sigma_desi_lss_closure_squared_radial_q_derivative.csv": "aa180e37b771e7008483759fc6c0e9193478b4844089a928daac26eb6084e340",
+  "sigma_desi_lss_closure_squared_radial_q_metrics.csv": "c97a8875a96b565d0d51b4d2b1beabe560935babce3038b29aea6eb81c67221d",
+  "sigma_desi_lss_closure_squared_radial_q_null.csv": "09013d1785e6b9690691e513b1cf6ebf71f051b8859e47604953b35af36632af",
+  "sigma_desi_lss_closure_squared_radial_q_nulls.png": "5d502d41a347937e64bc2c15f46dc5d0eb7c1da257194a78349ff85761a3ed47",
+  "sigma_desi_lss_closure_squared_radial_q_partitions.csv": "a80511571d9eb752a08d3398093e0038b489c9d926c24c97beb5b35f985e59d8",
+  "sigma_desi_lss_closure_squared_radial_q_shell_scan.csv": "7c383c6eff1772cfc12966a2d96645271411f59c70bab446419786f0820be4fe",
+  "sigma_desi_lss_closure_squared_radial_q_shell_scan.png": "6bd286f60aac440b52be6fffbcaaf39eea2686395e8d409e4bae9963f67c81c7",
+  "sigma_desi_lss_closure_squared_radial_q_tracer_shell.png": "e73878df5a11781b3f96d2b3e804750101c65bc99e038911bf734158444edaeb",
+  "sigma_desi_lss_closure_squared_radial_report.json": "a08ca8920b136be66c0989fc9ab545f152c26aa20525c184abbda5282224c21f",
+  "sigma_desi_lss_closure_squared_radial_report.md": "3b457a2e9b62caae5c6313b3980c803e5fa70c735c871c98b5748b3232890cd5",
+  "sigma_desi_lss_closure_squared_radial_source_hash.txt": "fbc3411365577de3c029e535e4d9beda1d0b660f16aefbdeed8e20215ac3a678",
+  "sigma_desi_lss_closure_squared_radial_tracer_level_results.csv": "33c74c993623d76cc3762ee099fea8935ae3d545b33efc99f05abebc7d5ac561"
+}

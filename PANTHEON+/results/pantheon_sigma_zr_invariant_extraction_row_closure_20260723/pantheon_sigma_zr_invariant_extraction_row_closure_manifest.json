@@ -1,0 +1,58 @@
+{
+  "MPFR_precision": 120,
+  "command": "sigma_pantheon.py --out_dir audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723",
+  "derivative_reconstructed_gamma": 0.38603416,
+  "derivative_reconstructed_mu": 0.082912607552,
+  "final_status": "PASS",
+  "input_paths": {
+    "pantheon_catalogue": "data/PantheonSH0ES.dat"
+  },
+  "manifest_hash_policy": "Output hashes record stable generated artifacts; manifest self-hash is external to the in-file table.",
+  "output_hashes": {
+    "derivative_recovery_csv": {
+      "bytes": 497411,
+      "path": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/supplementary_identity_reconstruction.csv",
+      "sha256": "bfad106189002a3b744895922d2c4d73c225ad93fd4b8c5a76b6c35da149c87e"
+    },
+    "pantheon_row_evidence_csv": {
+      "bytes": 310103,
+      "path": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_zr_row_extraction_closure.csv",
+      "sha256": "c76688840f049527a3c0559aab34d8da901ec6440cd90a1ea2d0e5a079fee217"
+    },
+    "report": {
+      "bytes": 4984,
+      "path": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_report.md",
+      "sha256": "2373bc5a19faaf5df3be8e755b379e741a3a27d2e9c4acac9d6852bf2e93edef"
+    },
+    "result_json": {
+      "bytes": 6584,
+      "path": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_result.json",
+      "sha256": "d40ce696fda3f6ba5607456fe4bce12953b3fabb1fdaad326f852db05a55d2be"
+    }
+  },
+  "output_paths": {
+    "derivative_recovery_csv": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/supplementary_identity_reconstruction.csv",
+    "manifest": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_manifest.json",
+    "pantheon_row_evidence_csv": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_zr_row_extraction_closure.csv",
+    "report": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_report.md",
+    "result_json": "audit_records/pantheon_sigma_zr_invariant_extraction_row_closure_20260723/pantheon_sigma_zr_invariant_extraction_row_closure_result.json"
+  },
+  "pantheon_extracted_gamma_record": 0.38603416,
+  "pantheon_extracted_mu_record": 0.082912607552,
+  "pantheon_robust_median_gamma": 0.38603415775788497,
+  "procedure_hashes": {
+    "entrypoint": {
+      "bytes": 40133,
+      "path": "sigma_pantheon.py",
+      "sha256": "2ac5cede8bf407d19d78bcd1ad32aa98fe22b572bbfdb34abefd3b35d66691a2"
+    }
+  },
+  "run_timestamp_utc": "2026-07-23T17:05:45Z",
+  "source_hashes": {
+    "pantheon_catalogue": {
+      "bytes": 579283,
+      "path": "data/PantheonSH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    }
+  }
+}

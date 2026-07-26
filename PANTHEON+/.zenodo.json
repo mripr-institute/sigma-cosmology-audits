@@ -1,0 +1,16 @@
+{
+  "title": "Pantheon+ Sigma Invariant Extraction and Row-Closure Audit",
+  "description": "MRIPR zero-degree-of-freedom Pantheon+ invariant extraction, row closure and custody audit.",
+  "upload_type": "software",
+  "publication_date": "2026-07-25",
+  "version": "1.0.0",
+  "license": "cc-zero",
+  "creators": [
+    {
+      "name": "Albert, Alex",
+      "orcid": "0009-0005-6981-2087",
+      "affiliation": "Mathematical Research Institute of Physical Reality"
+    }
+  ],
+  "keywords": ["sigma identity", "Pantheon+", "invariant extraction", "Lambert W closure"]
+}

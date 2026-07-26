@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "collection": "PANTHEON+",
+  "sources": [
+    {
+      "id": "pantheon-plus-shoes",
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat",
+      "path": "data/PantheonSH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+      "citation_url": "https://github.com/PantheonPlusSH0ES/DataRelease"
+    }
+  ]
+}
