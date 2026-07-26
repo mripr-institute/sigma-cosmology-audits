@@ -1,7 +1,7 @@
 # MRIPR σ Cosmology Audits
 
 **Author:** Alex Albert\
-**ORCID:** https://orcid.org/0009-0005-6981-2087\
+**ORCID:** https://orcid.org/0009-0005-6981-2087 \
 **Institution:** Mathematical Research Institute of Physical Reality\
 **Release date:** 25 July 2026
 
